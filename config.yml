@@ -1,0 +1,7 @@
+# command: hugo server -D --bind=0.0.0.0 --baseURL=http://192.168.0.12:1313 
+baseURL: https://8bitsqu.id/
+languageCode: en-gb
+title: Aadi Desai
+theme: unknown
+enableEmoji: true
+params:
