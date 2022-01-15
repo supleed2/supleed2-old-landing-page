@@ -1,7 +1,36 @@
-# command: hugo server -D --bind=0.0.0.0 --baseURL=http://192.168.0.12:1313 
+# command: hugo server -D --bind=0.0.0.0 --baseURL=http://192.168.0.12:1313
 baseURL: https://8bitsqu.id/
 languageCode: en-gb
 title: Aadi Desai
-theme: unknown
+theme: Shell
 enableEmoji: true
-params:
+params: # Customise Guide: https://github.com/Yukuro/hugo-theme-shell/blob/master/docs/customize_terminal/customize_terminal.md
+  description: "Aadi Desai's Portfolio"
+  Terminal:
+    scheme: "MonokaiDark" # Themes: https://mayccoll.github.io/Gogh/
+    userName: "Aadi"
+    pcName: "Spectre"
+    workDir: "Documents"
+    profile: "profile.md"
+    ps1Delay: 0.5
+    stdoutDelay: 10
+    commandDelay: 50
+    titleDelay: 0.5
+    contentDelay: 0.5
+    description: |
+      Hi there
+      I'm Aadi
+      Welcome to my site
+      You'll find social links and my blog below
+  Tree:
+    use: true
+    folderName: "links"
+    files:
+      - - LinkedIn
+        - "https://www.linkedin.com/in/aadidesai/"
+      - - GitHub
+        - "https://github.com/supleed2/"
+      - - Keybase
+        - "https://keybase.io/aadidesai"
+      - - Projects Blog
+        - "https://projects.8bitsqu.id/"
