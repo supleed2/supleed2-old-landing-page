@@ -28,9 +28,11 @@ params: # Customise Guide: https://github.com/Yukuro/hugo-theme-shell/blob/maste
     files:
       - - LinkedIn
         - "https://www.linkedin.com/in/aadidesai/"
+      - - Peerlist
+        - "https://peerlist.io/_aadi/"
       - - GitHub
         - "https://github.com/supleed2/"
       - - Keybase
-        - "https://keybase.io/aadidesai"
+        - "https://keybase.io/aadidesai/"
       - - Projects Blog
         - "https://projects.8bitsqu.id/"
