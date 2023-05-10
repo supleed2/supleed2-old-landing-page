@@ -1,0 +1,12 @@
+<style>
+{{ if .IsHome }}
+{{- $default_style := resources.Get "sass/default.scss" | resources.ToCSS -}}
+{{- $default_style.Content | safeCSS -}}
+{{ else }}
+{{- $activity_style := resources.Get "sass/activity.scss" | resources.ToCSS | minify -}}
+{{- $activity_style.Content | safeCSS -}}
+{{ end }}
+{{ $terminal_style := resources.Get "sass/white.scss" }}
+{{ $terminal_style = printf "body{background:#272822}body #terminal{color:#f8f8f2}body #user{color:#a6e22e}body #dir{color:#66d9ef}body .Typewriter__cursor{color:#f8f8f2}a{color:#f8f8f2}" }}
+{{ $terminal_style | safeCSS }}
+</style>
