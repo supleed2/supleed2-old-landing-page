@@ -30,6 +30,8 @@ params: # Customise Guide: https://github.com/Yukuro/hugo-theme-shell/blob/maste
         - "https://8bit.omg.lol/"
       - - My /now Page
         - "https://8bit.omg.lol/now/"
+      - - Mastodon (social.lol)
+        - "https://social.lol/@8bit/"
       - - LinkedIn
         - "https://www.linkedin.com/in/aadidesai/"
       - - Peerlist
