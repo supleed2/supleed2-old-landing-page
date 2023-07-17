@@ -33,7 +33,7 @@
             {{ if $l }}
                 {{ $link = $l.Permalink}}
             {{ end }}
-            
+
             {{ if eq (add $index 1) (len $.Site.Params.Tree.files) }}
             {{ $leaf = printf "<span id='terminal'>%s└── <a href='%s' target='_blank' rel='noopener noreferrer me' title='%s'>%s</a></span>" $leaf $link $ac $ac | safeHTML}}
             {{ else }}
@@ -51,5 +51,4 @@
     {{ $commandDelay := $.Site.Params.Terminal.commandDelay }}
 
     {{ partial "partials/typeIndex.html" (dict "context" . "env" $env "cd" $cd "envWithDir" $envWithDir "cat" $cat "description" $description "tree" $tree "leaf" $leaf "ps1delay" $ps1Delay "stdoutdelay" $stdoutDelay "commanddelay" $commandDelay ) }}
-    <div style="display: none;"><a rel="me" href="https://social.lol/@8bit"></a></div>
 {{ end }}
