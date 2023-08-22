@@ -42,3 +42,5 @@ params: # Customise Guide: https://github.com/Yukuro/hugo-theme-shell/blob/maste
         - "https://keybase.io/aadidesai/"
       - - Projects Blog
         - "https://projects.8bitsqu.id/"
+      - - My CV (PDF)
+        - "https://github.com/supleed2/supleed2/blob/c4010b8c2011f6186436d3625ae962a2c2e8943f/AadiDesaiCV.pdf"
